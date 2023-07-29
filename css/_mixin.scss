@@ -1,0 +1,14 @@
+@mixin photos {
+    margin: 10px 5px;
+    border: 1px solid $color2;
+    background: linear-gradient(to bottom, #ccffff 0%, #999966 100%);
+    transition: 0.5s all;
+}
+
+@mixin seller-inner {
+    font-size: 12px;
+    color: $color;
+    background-color: #005d6c;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
